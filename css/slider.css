@@ -1,0 +1,143 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+.quiz-container {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.slide {
+  display: none;
+}
+
+.slide .pertanyaan {
+  background-color: #0d5e3c;
+  padding: 15px 5px 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.slide .pg {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0 40px;
+}
+
+.navigation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation button,
+#tombol-submit {
+  padding: 3px 30px;
+  margin: 5px;
+  background-image: linear-gradient(to right, #1bc47d, #0d5e3c);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#tombol-submit {
+  margin-top: 20px;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* .slider {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.slide form .pertanyaan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  background-color: #23865c;
+  margin-bottom: 25px;
+}
+
+.slide form .pertanyaan p {
+  text-align: center;
+}
+
+.slide form .pg {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navigation,
+.submit {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+#submit {
+  border-radius: 5px;
+}
+.navigation {
+  bottom: 20px;
+}
+
+button {
+  background-image: linear-gradient(to right, #1bc47d, #0d5e3c);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+} */

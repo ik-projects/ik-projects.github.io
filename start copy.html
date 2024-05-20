@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MentalFit</title>
+    <link rel="stylesheet" href="css/styleStart.css" />
+    <link rel="stylesheet" href="css/slider.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" />
+        <h1>MentalFit</h1>
+      </div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">FAQ</a>
+      </nav>
+      <div class="start">
+        <a href="#">Mulai Tes Sekarang</a>
+      </div>
+    </header>
+    <div class="container">
+      <div class="left-start">
+        <div class="teks">
+          <h2>Cek</h2>
+          <h2>Kesehatan Mental Anda!</h2>
+        </div>
+        <!-- <a href="#">Mulai</a> -->
+        <!-- Button trigger modal -->
+        <button
+          id="tombol"
+          type="button"
+          class="btn btn-success"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+        >
+          Mulai
+        </button>
+      </div>
+      <div class="right-start">
+        <img src="img/gambar-3.png" alt="orang dalam botol" width="500" />
+      </div>
+    </div>
+    <div class="container catatan">
+      <h2>Catatan Penting</h2>
+      <h2>Sebelum Memulai Tes !</h2>
+      <ul>
+        <li>Jangan gunakan alat tes ini sebagai acuan diagnosis.</li>
+        <li>
+          Gunakan tes ini sebagai gambaran umum kondisi Anda dan menentukan
+          kebutuhan untuk ke profesional.
+        </li>
+        <li>
+          Seluruh data dan hasil tes bersifat rahasia dan hanya digunakan untuk
+          keperluan pemilihan layanan lanjutan.
+        </li>
+        <li>
+          Seluruh alat tes ini diadaptasi berdasarkan alat tes bebas dan daring
+          sehingga dapat diakses secara gratis
+        </li>
+        <li>
+          Berisi 20 pertanyaan menggunakan skala 0 sampai 3 untuk menghitung
+          skor akhir.
+        </li>
+        <li>
+          Jika Anda memiliki masalah kesehatan mental, segera hubungi bantuan
+          profesional
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <div class="footer-atas">
+        <div class="footer-atas-1">
+          <img src="img/logo.png" alt="logo" />
+          <h2>MentalFit</h2>
+        </div>
+        <div class="footer-atas-2">
+          <h2>Navigation</h2>
+          <div class="footer-nav">
+            <a href="#">Home</a>
+            <a href="#">about Us</a>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+        <div class="footer-atas-2">
+          <h2>Contact</h2>
+          <div class="footer-nav">
+            <ul>
+              <li><a href="#">227006</a></li>
+              <li><a href="#">227006</a></li>
+              <li><a href="#">227006</a></li>
+              <li><a href="#">227006</a></li>
+              <li><a href="#">227006</a></li>
+              <li><a href="#">227006</a></li>
+              <li><a href="#">227006</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-atas-2">
+          <h2>Referensi</h2>
+          <div class="footer-nav">
+            <a href="#">www.google.com</a>
+            <a href="#">www.google.com</a>
+            <a href="#">www.google.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-tengah"></div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="staticBackdrop"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+          Jawab pertanyaan berikut!
+        </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="slider">
+          <div class="slides">
+            <div class="slide active">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya merasa sulit untuk bersantai.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q1" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q1" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q1" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q1" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya merasa bibir saya sering
+                    kering.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q2" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q2" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q2" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q2" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya tidak bisa merasakan perasaan
+                    positif sama sekali.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q3" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q3" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q3" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q3" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya mudah mengalami kesulitan
+                    bernafas.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q4" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q4" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q4" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q4" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya sepertinya tidak punya
+                    kekuatan untuk melakukan suatu kegiatan.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q5" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q5" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q5" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q5" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya cenderung bereaksi berlebihan
+                    terhadap suatu situasi.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q6" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q6" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q6" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q6" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>Dalam seminggu terakhir, saya merasa gemetar</p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q7" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q7" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q7" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q7" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya merasa telah menghabiskan
+                    banyak energi karena cemas.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q8" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q8" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q8" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q8" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya merasa khawatir dengan situasi
+                    dimana saya mungkin menjadi panik dan mempermalukan diri
+                    sendiri.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q9" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q9" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q9" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q9" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+            <div class="slide">
+              <form>
+                <div class="pertanyaan">
+                  <p>
+                    Dalam seminggu terakhir, saya merasa tidak ada hal yang
+                    dapat diharapkan di masa depan.
+                  </p>
+                </div>
+                <div class="pg">
+                  <label
+                    ><input type="radio" name="q10" value="0" /> Tidak
+                    pernah</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q10" value="1" /> Jarang</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q10" value="2" /> Sering</label
+                  ><br />
+                  <label
+                    ><input type="radio" name="q10" value="3" /> Sangat
+                    sering</label
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="navigation">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+          </div>
+          <div class="submit">
+            <button id="submit">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

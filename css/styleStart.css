@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-image: linear-gradient(to right, #5eb47c, #007d6e);
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto 0;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+header .logo h1 {
+  color: white;
+}
+
+header nav {
+  display: flex;
+  gap: 40px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header .start {
+  padding: 8px 25px;
+  background-color: #ec744a;
+  border-radius: 5px;
+}
+
+header .start a {
+  color: white;
+  text-decoration: none;
+}
+
+.container1 {
+  margin-top: 60px;
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-start .teks {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.left-start a {
+  padding: 6px 60px;
+  background-image: linear-gradient(to right, #294e36f0, #5eb47c);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.left-start #tombol {
+  padding: 4px 60px;
+  border: none;
+  background-image: linear-gradient(to right, #294e36f0, #5eb47c);
+}
+
+.catatan {
+  background-color: white;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.catatan p {
+  text-align: justify;
+}
+
+.catatan ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+}
+
+footer .footer-atas {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+footer .footer-atas .footer-atas-1 {
+  color: white;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .footer-atas .footer-atas-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: white;
+}
+
+footer .footer-atas .footer-atas-2 .footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .footer-atas .footer-atas-2 .footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .footer-atas .footer-atas-2 a {
+  color: white;
+}
+
+footer .footer-tengah {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+/* START.HTML */
+.modal-dialog .modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.modal-dialog .modal-body .kotak {
+  border-radius: 5px;
+  background-color: #23865c;
+  color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-dialog .modal-body .tombol-kotak {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+.modal-dialog .modal-body .tombol-kotak a {
+  text-decoration: none;
+  padding: 4px 20px;
+  border-radius: 5px;
+}
+
+.modal-dialog .modal-body .tombol-kotak .prev {
+  background-color: #d1d1d1;
+  color: black;
+}
+
+.modal-dialog .modal-body .tombol-kotak .skip {
+  color: white;
+  background-image: linear-gradient(to right, #ffd564, #fa8e2b);
+}
+
+.modal-dialog .modal-body .tombol-kotak .next {
+  color: white;
+  background-image: linear-gradient(to right, #1bc47d, #0d5e3c);
+}
+
+.modal-dialog .modal-body .pilihan {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-dialog .modal-body .pilihan .iya,
+.modal-dialog .modal-body .pilihan .tidak {
+  padding: 5px 20px;
+  background-color: #1bc47d;
+  border-radius: 5px;
+  color: white;
+}
+
+#tombolan {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#tombolan #tombol-catatan {
+  text-align: center;
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+  padding: 4px 20px;
+  background-image: linear-gradient(to right, black #fa8e2b) !important;
+  border-radius: 5px;
+}
+
+#disklaimer {
+  width: 70%;
+}
+
+footer .footer-bawah {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 400;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+#results {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+#results .hasil {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#results .level {
+  background-color: yellowgreen;
+  border-radius: 10px;
+  padding: 30px 15px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+#results .level.kecemasan {
+  background-color: rgb(69, 69, 255);
+}
+
+#results .level.stress {
+  background-color: rgb(255, 69, 199);
+}
